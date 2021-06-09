@@ -1,0 +1,36 @@
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+  }
+
+  @media (max-width: 420px) {
+      .btn-warning {
+          width: 158px;
+      }
+  }
+
+.title {
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+.order-1{
+    @media (max-width: 920px) {
+        order: 2;
+    }
+}
+
+.order-2{
+    @media (max-width: 920px) {
+        order: 1;
+    }
+}

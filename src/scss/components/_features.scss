@@ -1,0 +1,50 @@
+.section{
+    background-color: #0a0a0a;
+    padding-top: 20px;
+}
+
+.desc {
+    color: #000;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.item-features {
+    text-align: center;
+    background-color: black;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    height: 320px;
+
+    .title-features {
+        color: white;
+    }
+
+    .attr-img {
+        position: absolute;
+        top: 0;
+        left: 25px;
+        width: 24px;
+        height: 74px;
+    }
+
+    p {
+        width: 80%;
+        margin-left: 35px;
+    }
+}
+
+.features {
+    margin-right: 5px;
+
+    @media (max-width: 420px) {
+        margin-right: -10px;
+    }
+}
+
+.brush{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}

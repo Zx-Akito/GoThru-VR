@@ -1,0 +1,26 @@
+.navbar {
+    background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: $color-warning;
+    border-bottom: $color-warning;
+}
+
+.navbar-brand {
+    font-weight: 400;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin-right: 10px;
+}
+
+.vr-icon {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,137 @@
+.faq{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #0a0a0a;
+
+    .accordion{
+
+        .card{
+            background: black;
+            box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border: none;
+    
+            .card-header{
+                background-color: black;
+                color: black;
+                border-bottom: none;
+                padding: 15px;
+
+                @media (max-width: 420px) {
+                    padding: 7.5px;
+                }
+                
+                .btn[aria-expanded=true] {
+                    color: black;
+                    background-color: $color-warning;
+    
+                    .open{
+                        display: none;
+                    }
+    
+                    .close{
+                        display: block;
+                    }
+                }
+    
+                .btn[aria-expanded=false] {
+                    color: #FFFFFF;
+                    background-color: #20202A;
+    
+                    .open{
+                        display: block;
+                        margin-left: auto;
+                    }
+    
+                    .close{
+                        display: none;
+                    }
+                }
+    
+                .btn-accordion{
+                    display: block;
+                    text-align: left;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    font-weight: normal;
+                    font-size: 18px;
+
+                    @media (max-width: 420px) {
+                        padding: 10px 15px;
+                    }
+    
+                    .img-action{
+                        flex: 1 1 auto;
+                        text-align: right;
+                        margin-left: 10px;
+    
+                        > img{
+                            width: 20px;
+                        }
+                    }
+    
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+            }
+    
+            .card-body{
+                padding: 0px 40px 15px 45px;
+
+                @media (max-width: 420px) {
+                    padding: 10px 20px 15px 25px;
+                }
+    
+                strong{
+                    color: #DCDCDC;
+                }
+    
+                .widget{
+
+                    .list-feature{
+                        @media (max-width: 420px) {
+                            margin-left: 10px;
+                        }
+                    }
+
+                    >ol{
+                        padding-left: 20px;
+
+                        > li{
+                            margin-bottom: 10px;
+    
+                            strong{
+                                color: #DCDCDC;
+                            }
+                        }
+                    }
+    
+                    >ul {
+                        padding-left: 0px;
+
+                        >li{
+                            list-style: none;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .img-faq{
+        width: 100%;
+
+        @media (max-width: 992px){
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.faq .accordion .card .card-header .btn[aria-expanded=false] {
+    color: #FFFFFF;
+    background-color: black;
+}

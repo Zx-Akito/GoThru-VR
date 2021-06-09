@@ -1,0 +1,47 @@
+.testimonial{
+    position: relative;
+    padding-bottom: 50px;
+
+    .wrap-item-testimonial{
+        position: relative;
+        margin-top: 45px;
+
+        .item-testimonial{
+            background: black;
+            box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 5px;
+            padding: 30px;
+            position: relative;
+    
+            .desc{
+                text-align: left;
+                color: #999999;
+                width: 100%;
+            }
+    
+            .user{
+                h5{
+                    margin-bottom: 0;
+                    color: white;
+                }
+            }
+    
+            .attr-img{
+                position: absolute;
+                right: 0;
+                bottom: 55px;
+                width: 60px;
+            }
+        }
+    }
+}
+
+.rating{
+    float: right;
+
+    @media (max-width: 320px) {
+        width: 70px;
+        margin-top: 2px;
+        margin-right: -10px;
+    }
+}

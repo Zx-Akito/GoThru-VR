@@ -1,0 +1,32 @@
+@import "common/variables";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import "~bootstrap-scss/bootstrap";
+
+// Common
+@import "common/global";
+@import "common/mixins";
+@import "common/fonts";
+@import "common/typography";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+
+// Pages
+@import "pages/home";
+@import "pages/procedure";
+
+// Components
+@import "components/welcome";
+@import "components/features";
+@import "components/match-header";
+@import "components/about-component";
+@import "components/testimonial";
+@import "components/faq-component";

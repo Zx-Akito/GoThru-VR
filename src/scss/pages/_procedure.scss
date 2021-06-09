@@ -1,0 +1,28 @@
+.procedure{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.wrap-title{
+
+    .fw-bolder{
+        margin-left: 10px;
+
+        @media (max-width: 420px) {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 920px) {
+            margin-top: 20px;
+        }
+    }
+}
+
+ul{
+    color: #999999;
+
+    @media (max-width: 420px) {
+        margin-left: -10px;
+    }
+}
