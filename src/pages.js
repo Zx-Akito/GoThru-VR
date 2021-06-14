@@ -31,6 +31,14 @@ const pages = [
     },
     template: './src/hbs/pages/faq.hbs',
   },
+  {
+    output: './contactus/index.html',
+    content: {
+      title: 'Gothru VR',
+      description: 'contactus Page'
+    },
+    template: './src/hbs/pages/contactus.hbs',
+  },
 ]
 
 module.exports = pages
